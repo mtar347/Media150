@@ -1,3 +1,107 @@
 body {
     background-color: darkgreen;
+     height: inherit;
+     width: inherit;
+}
+.myButton {
+color: rgb(255, 255, 255);
+ font-size: 16px; line-height: 16px;
+  padding: 6px; border-radius: 13px;
+   font-family: Georgia, serif;
+    font-weight: normal;
+     text-decoration: none;
+     font-style: normal;
+      font-variant: normal;
+      text-transform: none;
+       background-image: linear-gradient(to right, rgb(1, 6, 10) 0%, rgb(0, 0, 0) 50%, rgb(1, 9, 15) 100%);
+        box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
+         border: 2px solid rgb(8, 138, 47); display: inline-block;}
+.myButton:hover {
+background: #49FF18; }
+#demotext {
+color: #FFF; font-size: 16px;
+ line-height: 16px; padding: 6px;
+  border-radius: 13px; font-family: Georgia, serif;
+   font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+     font-variant: normal;
+      text-transform: none;
+       background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%);
+        box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
+         border: 2px solid rgb(221, 17, 17); display: inline-block;
+background-color: #232323;
+text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18
+}table.greenTable {
+  font-family: Georgia, serif;
+  border: 6px solid #24943A;
+  background-color: #D4EED1;
+  width: 100%;
+  text-align: center;
+}
+table.greenTable td, table.greenTable th {
+  border: 1px solid #24943A;
+  padding: 3px 2px;
+}
+table.greenTable tbody td {
+  font-size: 13px;
+}
+table.greenTable thead {
+  background: #24943A;
+  background: -moz-linear-gradient(top, #5baf6b 0%, #3a9e4d 66%, #24943A 100%);
+  background: -webkit-linear-gradient(top, #5baf6b 0%, #3a9e4d 66%, #24943A 100%);
+  background: linear-gradient(to bottom, #5baf6b 0%, #3a9e4d 66%, #24943A 100%);
+  border-bottom: 0px solid #444444;
+}
+table.greenTable thead th {
+  font-size: 19px;
+  font-weight: bold;
+  color: #F0F0F0;
+  text-align: left;
+  border-left: 2px solid #24943A;
+}
+table.greenTable thead th:first-child {
+  border-left: none;
+}
+
+table.greenTable tfoot td {
+  font-size: 13px;
+}
+table.greenTable tfoot .links {
+  text-align: right;
+}
+table.greenTable tfoot .links a{
+  display: inline-block;
+  background: #FFFFFF;
+  color: #24943A;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+#hound {
+text-shadow: -5px 5px 0px #72ae7fd6,
+ -10px 10px 0px #419b59d7,
+  -15px 15px 0px #075b0ef6,
+   2px 2px 2px rgba(220, 205, 199, 0),
+    2px 2px 2px rgba(206,89,55,0);
+    text-align:center; color: #FFFFFF;
+
+}
+#demotext1 {
+color: #FFF; font-size: 16px;
+ line-height: 16px; padding: 6px;
+  border-radius: 13px; font-family: Georgia, serif;
+   font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+     font-variant: normal;
+      text-transform: none;
+       background-image: linear-gradient(to right,
+        rgb(2, 62, 18)
+        0%, rgb(7, 248, 7)
+         50%, rgb(227, 233, 231) 100%);
+        box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
+         border: 2px solid rgb(221, 17, 17); display: inline-block;}
+
+.image{
+    image-orientation: inherit; width: inherit; height: inherit;
 }
