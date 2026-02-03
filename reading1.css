@@ -2,8 +2,10 @@ body {
     background-color: darkgreen;
      height: inherit;
      width: inherit;
+     color: rgb(6, 6, 0);
+     
 }
-.myButton {
+.myButton1 {
 color: rgb(255, 255, 255);
  font-size: 16px; line-height: 16px;
   padding: 6px; border-radius: 13px;
@@ -16,9 +18,13 @@ color: rgb(255, 255, 255);
        background-image: linear-gradient(to right, rgb(1, 6, 10) 0%, rgb(0, 0, 0) 50%, rgb(1, 9, 15) 100%);
         box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
          border: 2px solid rgb(8, 138, 47); display: inline-block;}
-.myButton:hover {
+.myButton1:hover {
 background: #49FF18; }
-#demotext {
+#yellowblock {
+border: 23px solid #ff6;
+background-color: #ff6;
+}
+#label1 {
 color: #FFF; font-size: 16px;
  line-height: 16px; padding: 6px;
   border-radius: 13px; font-family: Georgia, serif;
@@ -27,37 +33,9 @@ color: #FFF; font-size: 16px;
     font-style: normal;
      font-variant: normal;
       text-transform: none;
-       background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%);
+       background-image: linear-gradient(to right, rgb(13, 104, 36) 0%, rgb(177, 227, 39) 50%, rgb(10, 255, 87) 100%);
         box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
          border: 2px solid rgb(221, 17, 17); display: inline-block;
 background-color: #232323;
 text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18
-}
-#hound {
-text-shadow: -5px 5px 0px #72ae7fd6,
- -10px 10px 0px #419b59d7,
-  -15px 15px 0px #075b0ef6,
-   2px 2px 2px rgba(220, 205, 199, 0),
-    2px 2px 2px rgba(206,89,55,0);
-    text-align:center; color: #FFFFFF;
-
-}
-#demotext1 {
-color: #FFF; font-size: 16px;
- line-height: 16px; padding: 6px;
-  border-radius: 13px; font-family: Georgia, serif;
-   font-weight: normal;
-    text-decoration: none;
-    font-style: normal;
-     font-variant: normal;
-      text-transform: none;
-       background-image: linear-gradient(to right,
-        rgb(2, 62, 18)
-        0%, rgb(7, 248, 7)
-         50%, rgb(227, 233, 231) 100%);
-        box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
-         border: 2px solid rgb(221, 17, 17); display: inline-block;}
-
-.image{
-    image-orientation: inherit; width: inherit; height: inherit;
 }
