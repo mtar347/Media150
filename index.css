@@ -13,13 +13,13 @@ color: rgb(255, 255, 255);
      font-style: normal;
       font-variant: normal;
       text-transform: none;
-       background-image: linear-gradient(to right, rgb(1, 6, 10) 0%, rgb(0, 0, 0) 50%, rgb(1, 9, 15) 100%);
+       background-image: linear-gradient(to right, rgb(5, 230, 151) 0%, rgb(103, 163, 25) 50%, rgb(180, 224, 3) 100%);
         box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
          border: 2px solid rgb(8, 138, 47); display: inline-block;}
 .myButton:hover {
 background: #49FF18; }
-#demotext {
-color: #FFF; font-size: 16px;
+#section {
+color: #8b65d8; font-size: 16px;
  line-height: 16px; padding: 6px;
   border-radius: 13px; font-family: Georgia, serif;
    font-weight: normal;
@@ -27,7 +27,7 @@ color: #FFF; font-size: 16px;
     font-style: normal;
      font-variant: normal;
       text-transform: none;
-       background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%);
+       background-image: linear-gradient(to right, rgb(9, 224, 113) 0%, rgb(207, 233, 58) 50%, rgb(3, 88, 3) 100%);
         box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
          border: 2px solid rgb(221, 17, 17); display: inline-block;
 background-color: #232323;
@@ -39,10 +39,10 @@ text-shadow: -5px 5px 0px #72ae7fd6,
   -15px 15px 0px #075b0ef6,
    2px 2px 2px rgba(220, 205, 199, 0),
     2px 2px 2px rgba(206,89,55,0);
-    text-align:center; color: #FFFFFF;
+    text-align:center; color: #ffffff;
 
 }
-#demotext1 {
+#section1 {
 color: #FFF; font-size: 16px;
  line-height: 16px; padding: 6px;
   border-radius: 13px; font-family: Georgia, serif;
@@ -60,4 +60,10 @@ color: #FFF; font-size: 16px;
 
 .image{
     image-orientation: inherit; width: inherit; height: inherit;
+}
+#yellowblock {
+border: 23px solid #ff6;
+background-color: #ff6;
+border-radius: 26px;
+display: inline-block;  padding: 20px 10px; border: 5px solid;
 }

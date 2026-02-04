@@ -23,6 +23,8 @@ background: #49FF18; }
 #yellowblock {
 border: 23px solid #ff6;
 background-color: #ff6;
+border-radius: 26px;
+display: inline-block;  padding: 20px 10px; border: 5px solid
 }
 #label1 {
 color: #FFF; font-size: 16px;
