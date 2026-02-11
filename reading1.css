@@ -15,7 +15,7 @@ color: rgb(255, 255, 255);
      font-style: normal;
       font-variant: normal;
       text-transform: none;
-       background-image: linear-gradient(to right, rgb(1, 6, 10) 0%, rgb(0, 0, 0) 50%, rgb(1, 9, 15) 100%);
+       background-image: linear-gradient(to right, rgb(25, 192, 142) 0%, rgb(226, 90, 90) 50%, rgb(188, 222, 38) 100%);
         box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
          border: 2px solid rgb(8, 138, 47); display: inline-block;}
 .myButton1:hover {
