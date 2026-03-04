@@ -2,8 +2,3 @@ ul{
     display: flex;
     justify-content: center;
 }
-.vw
-{
-  writing-mode: vertical-rl;
-  text-orientation: upright;
-}
