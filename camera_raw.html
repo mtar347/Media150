@@ -7,30 +7,62 @@
             <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="homework2.css">
     <link rel="stylesheet" href="reading1.css">
+
     <style>
-        table{
-            outline: 11px inset rgba(244,252,94,0.75);
-outline-offset: 10px;
-        }
-        td{
-            outline: 11px inset rgba(244,252,94,0.75);
-outline-offset: 0px;
-        }
-        .cen{
-            height: 100%;
+        img{
+            margin-right: 0px; padding: 0px; border: solid rgb(204, 9, 9) 5px;
         }
     </style>
 </head>
 <body>
-    <h1><div class="myButton1" ><a href="index.html">Home</a></div></h1>
-     <table>
-        <td><img src="preraw.jpg" alt="" width="500" ><div id="section1"  class="cen">jpeg image</div></td>
-        <td><img src="prerawedit.jpg" alt="" width="500" ><div id="section1"  class="cen">jpeg camera raw edit image</div></td>
+    <ul>
+    <li><a href="index.html" >Home</a></li> 
+    <li class="dropdown"> 
+        <a class="dropbtn">Homework 1 </a>
+            <div class="dropdown-content" >
+                <a href="reading1.html" >Reading 1</a>
+            </div>
+    </li>
+    <li class="dropdown">
+        <a class="dropbtn">Homework 2</a>
+            <div class="dropdown-content">
+                <a href="homework2.html" >Reading 2</a>
+            </div> 
+    </li>
+    <li class="dropdown">
+        <a class="dropbtn">Homework 3</a>
+            <div class="dropdown-content">
+                <a href="fieldblur.html" > Field Blur Exercise</a>
+                <a href="dof.html" > Depth Of Field Exercise</a>
+                <a href="camera_raw.html"> Camera Raw Fix</a>
+            </div> 
+    </li>
+    <li class="dropdown">
+        <a class="dropbtn">Homework 4</a>
+            <div class="dropdown-content">
+                <a href="potomontage.html" >Photo Montage</a>
+            </div> 
+    </li>
+
+    <li class="dropdown">
+        <a class="dropbtn">Homework 5</a>
+            <div class="dropdown-content">
+                <a href="eye.html"> Vector Emotive Eye</a> 
+                <a href="environment.html"> Illustrated Environment</a>
+            </div> 
+    </li>
+  </ul>
+   <table>
+        <td><img src="pictures/dof/preraw.jpg" alt="" width="500">
+        <div id="section1">JPEG image</div></td>
+        <td><img src="pictures/dof/prerawedit.jpg" alt="" width="500">
+        <div id="section1">JPEG camera raw edit image</div></td>
     </table>
     <table>
-        <td><img src="preraw.jpg" alt=""width="500" ><div id="section1"  class="cen">raw image</div></td>
-        <td><img src="ogclose.jpg" alt=""width="500" ><div id="section1"  class="cen">raw camera raw edit image</div></td>
+        <td><img src="pictures/dof/preraw.jpg" alt=""width="500">
+        <div id="section1"  >RAW image</div></td>
+        <td><img src="pictures/dof/ogclose.jpg" alt=""width="500">
+        <div id="section1"  >RAW camera raw edit image</div></td>
     </table>
 </body>
-
 </html>
