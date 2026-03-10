@@ -103,7 +103,7 @@ color: #FFF; font-size: 16px;
     }
 
 .image{
-    image-orientation: inherit; width: inherit; height: inherit;
+    image-orientation: inherit; width: inherit; height: inherit; justify-content: center; display: flex; align-items: center;
 }
 #yellowblock {
 border: 23px solid #ff6;
